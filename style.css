@@ -37,7 +37,7 @@
  }
 
  @font-face {
-     font-family:'Inter-semibold' ;
+     font-family: 'Inter-semibold';
      src: url('fonts/Inter18pt-SemiBold.woff2') format('woff2');
      font-weight: 600;
      font-style: normal;
@@ -160,9 +160,9 @@
 
 
  #home section.headers header nav ul li a {
-     font-size: 22px;
+     font-size: 21px;
      font-weight: 400;
-     font-family: 'Poppins-semibold';
+     font-family: 'Poppins-regular';
 
  }
 
@@ -434,13 +434,13 @@
  }
 
  #product section.container ul li div.imgs img.icon2 {
- position: absolute;
-    top: 68px;
-    width: 11%;
-    right: 51px;
-    background: #ffffff;
-    border-radius: 50px;
-    display: block;
+     position: absolute;
+     top: 68px;
+     width: 11%;
+     right: 51px;
+     background: #ffffff;
+     border-radius: 50px;
+     display: block;
 
 
  }
@@ -1053,11 +1053,12 @@
          width: 100%;
          order: 1;
      }
-         #spotlight section.container div.right img {
-        width: 80%;
-        margin: 0 auto;
-        margin-top: 20px;
-    }
+
+     #spotlight section.container div.right img {
+         width: 80%;
+         margin: 0 auto;
+         margin-top: 20px;
+     }
 
      #spotlight section.container {
          display: flex;
